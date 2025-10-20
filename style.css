@@ -370,10 +370,10 @@ a:hover {
 
 /* Para que todo se vea bien en celular*/
 
-/* --- 💡 GENERAL MOBILE IMPROVEMENTS --- */
+
 @media (max-width: 768px) {
 
-  /* NAVIGATION */
+  /* Navegacion superior en celular */
   nav {
     padding: 10px 20px;
   }
@@ -394,7 +394,7 @@ a:hover {
     font-size: 1.2rem;
   }
 
-  /* SLIDER */
+  /* imagen gigante del inicio */
   .slider {
     height: 60vh;
   }
@@ -407,7 +407,7 @@ a:hover {
     font-size: 1rem;
   }
 
-  /* HOME PAGE (lines section) */
+  /* Parte de las lineas de producto */
   .lines, .lines2 {
     padding: 40px 20px;
     text-align: center;
@@ -431,7 +431,7 @@ a:hover {
     font-size: 0.95rem;
   }
 
-  /* PRODUCTS GRID */
+  /* Listado de produtctos */
   .productSection {
     padding: 40px 20px;
   }
@@ -453,7 +453,7 @@ a:hover {
     font-size: 1.1rem;
   }
 
-  /* PRODUCT DETAIL PAGE */
+  /* Detalles de los productos */
   .productDetail {
     padding: 40px 20px;
   }
@@ -476,7 +476,7 @@ a:hover {
     font-size: 0.95rem;
   }
 
-  /* CONTACT PAGE */
+  /* Pagina de contacto */
   .contact {
     padding: 30px 20px;
     border-radius: 10px;
@@ -486,7 +486,7 @@ a:hover {
     font-size: 1.8rem;
   }
 
-  /* FOOTER */
+  /* Footer */
   .footer {
     padding: 40px 20px;
     text-align: center;
@@ -521,7 +521,7 @@ a:hover {
   }
 }
 
-/* --- For very small screens like older phones --- */
+/* --- Para 480p --- */
 @media (max-width: 480px) {
   .sliderText h1 {
     font-size: 1.8rem;
