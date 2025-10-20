@@ -367,3 +367,179 @@ a:hover {
   margin-top: 20px;
   line-height: 1.8;
 }
+
+/* Para que todo se vea bien en celular*/
+
+/* --- 💡 GENERAL MOBILE IMPROVEMENTS --- */
+@media (max-width: 768px) {
+
+  /* NAVIGATION */
+  nav {
+    padding: 10px 20px;
+  }
+
+  .navTop {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .navLinks {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .navLinks h3 {
+    font-size: 1.2rem;
+  }
+
+  /* SLIDER */
+  .slider {
+    height: 60vh;
+  }
+
+  .sliderText h1 {
+    font-size: 2.2rem;
+  }
+
+  .sliderText p {
+    font-size: 1rem;
+  }
+
+  /* HOME PAGE (lines section) */
+  .lines, .lines2 {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .lineItem {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .lineItem img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .lineText h3 {
+    font-size: 1.3rem;
+  }
+
+  .lineText p {
+    font-size: 0.95rem;
+  }
+
+  /* PRODUCTS GRID */
+  .productSection {
+    padding: 40px 20px;
+  }
+
+  .productSection h2 {
+    font-size: 1.8rem;
+  }
+
+  .productCard {
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  .productCard img {
+    height: auto;
+  }
+
+  .productCard h3 {
+    font-size: 1.1rem;
+  }
+
+  /* PRODUCT DETAIL PAGE */
+  .productDetail {
+    padding: 40px 20px;
+  }
+
+  .productDetailContainer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .productImage img {
+    max-width: 90%;
+  }
+
+  .productInfo h1 {
+    font-size: 1.8rem;
+  }
+
+  .productInfo .description {
+    font-size: 0.95rem;
+  }
+
+  /* CONTACT PAGE */
+  .contact {
+    padding: 30px 20px;
+    border-radius: 10px;
+  }
+
+  .contact h2 {
+    font-size: 1.8rem;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .footerContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .footerLeft {
+    align-items: center;
+  }
+
+  .footerLogo {
+    width: 200px;
+  }
+
+  .footerRight {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footerColumn h3 {
+    font-size: 1.1rem;
+  }
+
+  .footerColumn li {
+    font-size: 0.9rem;
+  }
+}
+
+/* --- For very small screens like older phones --- */
+@media (max-width: 480px) {
+  .sliderText h1 {
+    font-size: 1.8rem;
+  }
+
+  .sliderText p {
+    font-size: 0.9rem;
+  }
+
+  .navLinks h3 {
+    font-size: 1rem;
+  }
+
+  .productCard {
+    max-width: 100%;
+  }
+
+  .footerLogo {
+    width: 150px;
+  }
+}
