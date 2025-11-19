@@ -543,3 +543,95 @@ a:hover {
     width: 150px;
   }
 }
+.filterBar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.categorySelect {
+  background-color: #111;
+  color: white;
+  border: 2px solid #444;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.categorySelect:hover {
+  border-color: #f5c542;
+}
+#cartList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;     /* CENTRA */
+  gap: 20px;
+  width: 100%;
+}
+
+.orderCard,
+.cartItemCard,
+.productCard {
+  width: 90%;
+  max-width: 700px;        /* NO MÁS PEGADO A UN LADO */
+}
+.qtyBtn {
+  background-color: #222;
+  color: white;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: 0.2s;
+}
+
+.qtyBtn:hover {
+  background-color: #444;
+}
+
+.removeBtn {
+  background-color: #b00000;
+  color: white !important;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.removeBtn:hover {
+  background-color: #ff1f1f;
+}
+.cartItemCard,
+.productCard {
+  background: #111;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(255,255,255,0.05);
+}
+#ordersList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* CENTRA TODO */
+  width: 100%;
+  gap: 20px;
+}
+
+/* Opcional: darle estilo bonito a cada orden */
+.orderCard {
+  background: #111;
+  color: white;
+  width: 90%;
+  max-width: 700px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(255,255,255,0.05);
+}
+
+
+

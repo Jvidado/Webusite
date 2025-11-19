@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Maletín Clásico - Briefcase</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <meta charset="UTF-8">
+  <title>Producto - Briefcase</title>
+
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-  <!-- 🔹 NAVIGATION -->
+  <!-- NAVBAR -->
   <nav>
     <div class="navTop">
       <div class="logo">
         <img src="./img/Briefcaselogo2o(1).png" alt="Logo" height="120">
       </div>
-      <div class="navLinks">
+
+      <div class="navLinks" id="navLinks">
         <h3><a href="index.html">Inicio</a></h3>
         <h3><a href="products.html">Productos</a></h3>
         <h3><a href="Contactenos.html">Contactenos</a></h3>
@@ -24,29 +25,17 @@
     </div>
   </nav>
 
-  <!-- 🔹 PRODUCT DETAILS SECTION -->
+  <!-- PRODUCTO DETALLE -->
   <section class="productDetail">
-    <div class="productDetailContainer">
-      <div class="productImage">
-        <img src="./img/Mlt/maletin1.jpg" alt="Maletín Clásico">
-      </div>
-      <div class="productInfo">
-        <h1>Maletín Clásico</h1>
-        <p class="price">$120.00</p>
-        <p class="description">
-          Este maletín combina elegancia y funcionalidad. Hecho con cuero genuino
-          y detalles metálicos dorados, es ideal para profesionales que buscan
-          proyectar una imagen sofisticada y moderna. Perfecto para llevar documentos,
-          laptop y accesorios con estilo.
-        </p>
-        <a href="products.html" class="backButton">← Volver a productos</a>
-      </div>
+    <div class="productDetailContainer" id="productDetailContainer">
+      <!-- Aquí se inyecta el producto -->
     </div>
   </section>
 
-  <!-- 🔹 FOOTER -->
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="footerContainer">
+
       <div class="footerLeft">
         <img src="./img/Briefcaselogo2o(1).png" alt="Briefcase logo" class="footerLogo">
         <div class="footerIcons">
@@ -65,8 +54,12 @@
             <li>UX design</li>
             <li>Wireframing</li>
             <li>Diagramming</li>
+            <li>Brainstorming</li>
+            <li>Online whiteboard</li>
+            <li>Team collaboration</li>
           </ul>
         </div>
+
         <div class="footerColumn">
           <h3>Explora</h3>
           <ul>
@@ -74,19 +67,31 @@
             <li>Prototyping</li>
             <li>Development features</li>
             <li>Design systems</li>
+            <li>Collaboration features</li>
+            <li>Design process</li>
+            <li>FigJam</li>
           </ul>
         </div>
+
         <div class="footerColumn">
           <h3>Recursos</h3>
           <ul>
             <li>Blog</li>
             <li>Best practices</li>
+            <li>Colors</li>
             <li>Support</li>
+            <li>Developers</li>
+            <li>Resource library</li>
           </ul>
         </div>
       </div>
+
     </div>
   </footer>
+
+  <!-- SCRIPTS -->
+  <script type="module" src="js/productDetail.js"></script>
+  <script type="module" src="js/navbar.js"></script>
 
 </body>
 </html>
